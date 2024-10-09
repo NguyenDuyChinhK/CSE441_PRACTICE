@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtStudentId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Thông tin sinh viên"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtFullNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ và tên:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtStudentId"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/txtFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Doe"
+        android:layout_below="@id/txtFullNameTitle"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/txtEmailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtFullName" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="johndoe@example.com"
+        android:layout_below="@id/txtEmailTitle"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/txtGenderTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giới tính:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtEmail" />
+
+    <TextView
+        android:id="@+id/txtGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nam"
+        android:layout_below="@id/txtGenderTitle"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/txtMajorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chuyên ngành:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtGender" />
+
+    <TextView
+        android:id="@+id/txtMajor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kỹ thuật phần mềm"
+        android:layout_below="@id/txtMajorTitle"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/txtGPATitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPA:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtMajor" />
+
+    <TextView
+        android:id="@+id/txtGPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.5"
+        android:layout_below="@id/txtGPATitle"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/txtBirthDayTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày sinh:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtGPA" />
+
+    <TextView
+        android:id="@+id/txtBirthDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01/01/2000"
+        android:layout_below="@id/txtBirthDayTitle"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/txtAddressTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtBirthDay" />
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123 Đường ABC, Quận 1, TP.HCM"
+        android:layout_below="@id/txtAddressTitle"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/txtYearTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Năm học:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtAddress" />
+
+    <TextView
+        android:id="@+id/txtYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Năm 2024"
+        android:layout_below="@id/txtYearTitle"
+        android:layout_marginTop="4dp" />
+
+    <!-- Các nút Sửa và Xóa -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/txtYear"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Sửa" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Xóa" />
+    </LinearLayout>
+
+</RelativeLayout>

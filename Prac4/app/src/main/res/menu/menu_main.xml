@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Search Menu Item -->
+    <item
+        android:id="@+id/action_search_student"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <!-- Edit Menu Item -->
+    <item
+        android:id="@+id/action_edit_student"
+        android:title="Edit"
+        android:icon="@android:drawable/ic_menu_edit"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_sort_az"
+        android:title="Sắp xếp A-Z"/>
+    <item
+        android:id="@+id/action_sort_za"
+        android:title="Sắp xếp Z-A"/>
+
+    <item
+        android:id="@+id/action_sort_name_asc"
+        android:title="Sắp xếp theo họ và tên (Tăng dần)"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_name_desc"
+        android:title="Sắp xếp theo họ và tên (Giảm dần)"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_gpa_asc"
+        android:title="Sắp xếp GPA Tăng Dần" />
+
+    <item
+        android:id="@+id/action_sort_gpa_desc"
+        android:title="Sắp xếp GPA Giảm Dần" />
+
+    <!-- Add more menu items here as needed -->
+
+</menu>
