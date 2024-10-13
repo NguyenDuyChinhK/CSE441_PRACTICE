@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Bai8_Intent_call_sms"
+        android:background="#6725f4"
+        android:textSize="24dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+
+        android:text="Call Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btncallphone"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="normal|bold"
+        android:textSize="30sp"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#d6d7d7"
+        />
+    <Button
+        android:text="send sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsendsms"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="normal|bold"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#d6d7d7"/>
+</LinearLayout>
