@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bai11_intent_filter_main"
+        android:textSize="24dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="#008577"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#8bb13f"
+        android:layout_gravity="center_horizontal"
+        android:text="Nhập Link Website"
+
+        />
+    <EditText
+        android:id="@+id/edtlink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btnopen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Web Page"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:backgroundTint="#d6d7d7"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>
