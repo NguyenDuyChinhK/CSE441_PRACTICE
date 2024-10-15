@@ -1,0 +1,112 @@
+[
+  {
+    "id": "S001",
+    "email": "student1@example.com",
+    "fullName": "Nguyễn Văn A",
+    "gender": "Nam",
+    "major": "Kỹ thuật phần mềm",
+    "gpa": 3.5,
+    "birthDay": "2000-01-15",
+    "address": "Hà Nội",
+    "year": 2022
+  },
+  {
+    "id": "S002",
+    "email": "student2@example.com",
+    "fullName": "Trần Thị B",
+    "gender": "Nữ",
+    "major": "Quản trị kinh doanh",
+    "gpa": 3.7,
+    "birthDay": "2000-02-20",
+    "address": "TP Hồ Chí Minh",
+    "year": 2022
+  },
+  {
+    "id": "S003",
+    "email": "student3@example.com",
+    "fullName": "Lê Văn C",
+    "gender": "Nam",
+    "major": "Công nghệ thông tin",
+    "gpa": 3.2,
+    "birthDay": "1999-03-05",
+    "address": "Đà Nẵng",
+    "year": 2021
+  },
+  {
+    "id": "S004",
+    "email": "student4@example.com",
+    "fullName": "Nguyễn Thị D",
+    "gender": "Nữ",
+    "major": "Khoa học dữ liệu",
+    "gpa": 3.9,
+    "birthDay": "2000-04-10",
+    "address": "Cần Thơ",
+    "year": 2022
+  },
+  {
+    "id": "S005",
+    "email": "student5@example.com",
+    "fullName": "Phạm Văn E",
+    "gender": "Nam",
+    "major": "Thiết kế đồ họa",
+    "gpa": 3.6,
+    "birthDay": "1998-05-25",
+    "address": "Hải Phòng",
+    "year": 2020
+  },
+  {
+    "id": "S006",
+    "email": "student6@example.com",
+    "fullName": "Vũ Thị F",
+    "gender": "Nữ",
+    "major": "Marketing",
+    "gpa": 3.8,
+    "birthDay": "1999-06-30",
+    "address": "Nha Trang",
+    "year": 2021
+  },
+  {
+    "id": "S007",
+    "email": "student7@example.com",
+    "fullName": "Nguyễn Văn G",
+    "gender": "Nam",
+    "major": "Tài chính ngân hàng",
+    "gpa": 3.3,
+    "birthDay": "2000-07-15",
+    "address": "Biên Hòa",
+    "year": 2022
+  },
+  {
+    "id": "S008",
+    "email": "student8@example.com",
+    "fullName": "Trần Văn H",
+    "gender": "Nam",
+    "major": "Luật",
+    "gpa": 3.4,
+    "birthDay": "1998-08-20",
+    "address": "Huế",
+    "year": 2020
+  },
+  {
+    "id": "S009",
+    "email": "student9@example.com",
+    "fullName": "Lê Thị I",
+    "gender": "Nữ",
+    "major": "Giáo dục",
+    "gpa": 3.1,
+    "birthDay": "2001-09-25",
+    "address": "Đà Lạt",
+    "year": 2023
+  },
+  {
+    "id": "S010",
+    "email": "student10@example.com",
+    "fullName": "Nguyễn Văn J",
+    "gender": "Nam",
+    "major": "Kỹ thuật điện",
+    "gpa": 3.0,
+    "birthDay": "1997-10-30",
+    "address": "Vinh",
+    "year": 2019
+  }
+]

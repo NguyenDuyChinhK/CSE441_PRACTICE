@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/textViewEmployeeList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No result!"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:background="@android:color/background_light"
+        android:layout_marginBottom="150dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chưa nhập dữ liệu"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        />
+
+
+    <EditText
+        android:id="@+id/editTextStaffId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="Staff ID"
+       />
+
+    <EditText
+        android:id="@+id/editTextFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="Staff Full Name"/>
+
+    <EditText
+        android:id="@+id/editTextBirthDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="Birthday (dd/MM/yyyy)"/>
+
+    <EditText
+        android:id="@+id/editTextSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="Salary"
+        android:inputType="numberDecimal"/>
+
+
+    <Button
+        android:id="@+id/buttonAddStaff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Staff"
+
+        android:backgroundTint="@color/purple_700"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
