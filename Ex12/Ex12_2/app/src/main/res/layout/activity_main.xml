@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1e1e1e"
+
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ap_resize"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Listview_new"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calendar Notes"
+        android:background="#81fa00"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textColor="#d04002"
+        />
+    <TextView
+        android:id="@+id/txtdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hôm nay:"
+        android:background="#fafa80"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/edtwork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the word here"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hour"
+            android:textSize="22sp"
+            />
+        <EditText
+            android:id="@+id/edthour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="7"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="Minute"
+            />
+        <EditText
+            android:id="@+id/edtmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="7"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnwork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Word"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:backgroundTint="#d3d3d3"
+        android:textColor="#e65855"
+        android:textAllCaps="false"
+        />
+    <ListView
+        android:id="@+id/ListView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
